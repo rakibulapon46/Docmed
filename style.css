@@ -1,0 +1,1620 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    max-width: 100%;
+    height: 50px;
+    background-color: #f5fbff;
+    z-index: 1;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    top: 0;
+    position: relative;
+}
+
+/******Header Start***********/
+header div{
+    float: left;
+    justify-content: space-around;
+}
+
+header .social{
+    margin-left: 3%;
+}
+
+header .contact{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+header .social ul, header .contact ul{
+    list-style: none;
+}
+
+header .social ul li{
+    float: left;
+    padding-right: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #cecbc8;
+    cursor: pointer;
+}
+
+header .social ul li i:hover{
+    color: #5db2ff;
+}
+
+header .contact ul li{
+    float: left;
+    padding-right: 70px;
+    font-size: 13px;
+    color: #919191;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+header .contact ul li i{
+    color: #5db2ff;
+    letter-spacing: 8px;
+}
+/**********Header End******/
+
+/**********Navbar Start******/
+.navbar{
+    max-width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    margin: 0px -8px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar .logo{
+    padding-top: 12px;
+    padding-left: 80px;
+}
+
+.navbar div{
+    float: left;
+    justify-content: space-between; 
+    display: flex;
+}
+
+.navbar .nav{
+    margin-left: 90px;
+    display: flex;
+}
+
+.navdrop{
+    display: none;
+    font-size: 30px;
+    color: #009dff;
+    float: right;
+    line-height: 80px;
+    margin-right: -80px;
+}
+
+#check{
+    display: none;
+}
+
+.navbar .nav ul{
+    list-style: none;
+}
+
+.navbar .nav ul li{
+    float: left;
+    padding-top: 12px;
+    padding-left: 22px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    justify-content: center;
+    max-width: 570px !important;
+    color: #727272;
+}
+
+.navbar .nav ul li i{
+    color: #727272;
+    font-size: 9px;
+    line-height: 9px;
+}
+
+.navbar .nav ul li:hover{
+    color: #000;
+    transition: all ease-in-out;
+}
+
+.navbar .nav ul li a{
+    text-decoration: none;
+    color: #8c8f92;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar .nav ul li a:hover{
+    color: #000;
+}
+
+.navbar .nav ul ul{
+    display: none;
+    padding-top: 10px;
+}
+
+.navbar .nav ul li:hover > ul{
+    display: grid;
+    position: absolute;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.navbar .nav ul li:hover > ul li{
+    margin-left: -55px;
+    padding-right: 7px;
+    text-align: left;
+    margin-top: -5px;
+    width: 150px;
+}
+
+.navbar .navbtn{
+    float: right;
+    padding-top: 12px;
+    padding-right: 80px;
+}
+
+.navbar .navbtn button{
+    padding: 12px 26px;
+    color: #fff;
+    background-color: #009dff;
+    font-size: 14px;
+    line-height: 21px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.navbar .navbtn button:hover{
+    color: #009dff;
+    background-color: #fff;
+    border: 1px solid #009dff;
+}
+/*********Navbar End**********/
+
+/*********Section1 Start********/
+.section1{
+    max-width: 100% ;
+    height: 700px !important;
+    background: url(banner2.png.webp) center;
+    margin: 0px -8px;
+}
+
+.section1 .text{
+    padding-left: 77px;
+    padding-top: 120px;
+}
+
+.section1 .text h3 span{
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 84px;
+    padding-bottom: 8px;
+    color:#1f1f1f;
+}
+
+.section1 .text h3{
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 84px;
+    color: #212529;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+}
+
+.section1 .text p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #727272;
+    font-weight: 400;
+    margin-top: -65px;
+    padding-bottom: 23px;
+}
+
+.section1 .text button{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #ffffff;
+    padding: 18px 44px;
+    border: 1px solid #009dff;
+    background-color: #0281f5;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.section1 .text > button:hover{
+    color: #009dff;
+    background-color: #fff;
+    border: 1px solid #009dff;
+}
+/*********Section1 End**********/
+
+/*********Info Area Start**********/
+.info{
+    max-width: 100% !important;
+    height: 330px;
+    background-color: #83c4ff;
+    display: flex;
+    flex-shrink: 2;
+    margin-left: -8px;
+    margin-right: 8px;
+    padding: 0px 60px;
+    color: #fff;
+}
+
+.info div{
+    padding: 40px 30px;
+}
+
+.info .hospitality span{
+    font-size: 50px;
+}
+
+.info .hospitality h3{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+.info .hospitality p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.info .hospitality button{
+    padding: 9px 24px;
+    font-size: 15px;
+    line-height: 23px;
+    background-color: #83c4ff;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info .hospitality button:hover{
+    background-color: #fff;
+    color: #5db2ff;
+}
+
+.info .emergency-care{
+    background-color: #5db2ff;
+}
+
+.info .emergency-care span{
+    font-size: 50px;
+}
+
+.info .emergency-care h3{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+.info .emergency-care p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.info .emergency-care button{
+    padding: 9px 24px;
+    font-size: 15px;
+    line-height: 23px;
+    background-color: #5db2ff;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info .emergency-care button:hover{
+    background-color: #fff;
+    color: #009dff;
+}
+
+.info .chamber-service span{
+    font-size: 50px;
+}
+
+.info .chamber-service h3{
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+.info .chamber-service p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.info .chamber-service button{
+    padding: 9px 24px;
+    font-size: 15px;
+    line-height: 23px;
+    background-color: #83c4ff;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.info .chamber-service button:hover{
+    background-color: #fff;
+    color: #009dff;
+}
+/*********Info Area End**********/
+
+/*********Welcome Part Start**********/
+.welcome{
+    max-width: 100%;
+    height: 810px;
+    display: flex;
+}
+
+.welcome div{
+    max-width: 50%;
+    padding: 120px 0px;
+    padding-left: 60px;
+}
+
+.welcome .img{
+    position: relative;
+    max-width: 48%;
+    display: flex;
+    float: left;
+}
+
+.welcome .img .pic1{
+    position: relative;
+    float: left;
+    width: 324px;
+    height: 394px;
+}
+
+.welcome .img .pic2{
+    position: relative;
+    width: 324px;
+    height: 392px;
+    top: 100px;
+    right: 130px;
+}
+
+.welcome .text2{
+    padding-right: 60px;
+    z-index: 1;
+}
+
+.welcome .text2 h3{
+    font-size: 18px;
+    line-height: 22px;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+
+.welcome .text2 h1{
+    font-size: 36px;
+    line-height: 43px;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+
+.welcome .text2 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #727272;
+}
+
+.welcome .text2 ul{
+    list-style: none;
+    padding-top: 15px;
+}
+
+.welcome .text2 ul li{
+    margin-left: -40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    line-height: 28px;
+}
+
+.welcome .text2 ul li i{
+    padding-right: 10px;
+    color: #5db2ff;
+}
+
+.welcome .text2 button{
+    padding: 9px 24px;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    border: 1px solid #5db2ff;
+    background-color: #ffffff;
+    color: #5db2ff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.welcome .text2 button:hover{
+    background-color: #5db2ff;
+    color: #ffffff;
+}
+/*********Welcome Part End**********/
+
+/*********Department Start**********/
+.department{
+    max-width: 100% !important;
+    height: 1264px !important;
+    background-color: #f5fbff;
+    padding-bottom: 80px;
+    margin: 0px -8px;
+}
+
+.department .text3{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.department .text3 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #1f1f1f;
+    line-height: 48px;
+}
+
+.department .text3 p{
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.department .services{
+    padding: 0px 62px;
+}
+
+.department .services .service1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.department .services .service1 .ser1{
+    max-width: 349px !important;
+    height: 435px !important;
+    overflow: hidden;
+    margin: 30px 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+    border-radius: 4px;
+}
+
+.department .services .service1 .ser1 img{
+    max-width: 349px !important;
+    height: 232px !important;
+    transition: all 0.2s ease-in;
+}
+.department .services .service1 .ser1 img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    width: 349px;
+    height: 232px;
+}
+
+.department .services .service1 .ser1 .details{
+    padding: 0px 30px;
+}
+
+.department .services .service1 .ser1 .details h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #1f1f1f;
+    line-height: 33px;
+}
+
+.department .services .service1 .ser1 .details h3:hover{
+    color: #5db2ff;
+    transition: all 0.4s;
+}
+
+.department .services .service1 .ser1 .details p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272;
+    font-family: 300;
+}
+
+.department .services .service1 .ser1 .details a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5db2ff;
+    font-family: 400;
+    text-decoration: none;
+}
+
+.department .services .service1 .ser1 .details a:hover{
+    text-decoration: underline;
+}
+
+.department .services .service2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.department .services .service2 .ser1{
+    max-width: 349px !important;
+    height: 435px !important;
+    overflow: hidden;
+    margin: 30px 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+    border-radius: 4px;
+}
+
+.department .services .service2 .ser1 img{
+    max-width: 349px !important;
+    height: 232px !important;
+    transition: all 0.2s ease-in;
+    transform: scale(1);
+}
+.department .services .service2 .ser1 img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    width: 349px;
+    height: 232px;
+}
+
+.department .services .service2 .ser1 .details{
+    padding: 0px 30px;
+}
+
+.department .services .service2 .ser1 .details h3{
+    font-size: 22px;
+    font-weight: 500;
+    color: #1f1f1f;
+    line-height: 33px;
+}
+
+.department .services .service2 .ser1 .details h3:hover{
+    color: #5db2ff;
+    transition: all 0.4s;
+}
+
+.department .services .service2 .ser1 .details p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272;
+    font-family: 300;
+}
+
+.department .services .service2 .ser1 .details a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5db2ff;
+    font-family: 400;
+    text-decoration: none;
+}
+
+.department .services .service2 .ser1 .details a:hover{
+    text-decoration: underline;
+}
+/*********Department End**********/
+
+/*********Quote Start**********/
+.quote{
+    max-width: 100% !important;
+    height: 622px;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(doctor.webp) center no-repeat;
+    margin: 0px -8px;
+}
+
+.quote .text4{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.quote .text4 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.quote .text4 i{
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: -5px;
+}
+
+.quote .text4 h4{
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+/*********Quote End**********/
+
+/*********Check Button Start**********/
+.checkbtn{
+    max-width: 100%;
+    height: 100px;
+    background-color: #f5fbff;
+    margin-left: -8px;
+    margin-top: -16px;
+    margin-bottom: -8px;
+}
+
+.checkbtn ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbtn ul li{
+    display: flex;
+    float: left;
+}
+
+.checkbtn ul li input{
+    display: none;
+}
+
+.checkbtn ul li label{
+    background-color: #f5fbff;
+    display: inline-block;
+    cursor: pointer;
+    padding: 35px 80px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1f1f1f;
+    font-weight: 400;
+    text-align: left;
+    margin-right: -4px;
+}
+
+.checkbtn ul [id^=btn]:checked + label{
+    background-color: #fff;
+}
+/*********Check Button End**********/
+
+/*********Leading Part Start**********/
+.leading{
+    max-width: 100% !important;
+    height: 440px;
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    padding: 60px 62px;
+}
+
+.leading .text5{
+    padding: 53px 0px;
+    padding-right: 20px;
+}
+
+.leading .text5 i{
+    font-size: 55px;
+    color: #5db2ff;
+    line-height: 75px;
+}
+
+.leading .text5 h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+
+.leading .text5 p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #727272;
+    line-height: 28px;
+}
+
+.hr{
+    margin-top: -120px;
+    padding: 0px 62px;
+    color: #eeeeee;
+    opacity: 25%;
+}
+/*********Leading Part End**********/
+
+/*********Expert Start**********/
+.expert{
+    max-width: 100%;
+    height: 630px;
+    background-color: #ffffff;
+    padding-left: 77px;
+    padding-top: 100px;
+    margin: 0px -8px;
+    padding-right: 77px;
+    display: block;
+}
+
+.expert h1{
+    font-size: 36px;
+    line-height: 43px;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+
+.expert .doctors{
+    max-width: 1140px;
+    height: 324px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 3;
+}
+
+.expert .doctors .doc1{
+    width: 23%;
+    height: 324px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+    background-color:#f5fbff;
+    background-size: cover;
+    padding-top: -20px;
+    margin-top: 55px;
+    border-radius: 4px;
+}
+
+.expert .doctors .doc1 figure{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.expert .doctors .doc1 img{
+    width: 250px;
+}
+
+.expert .doctors .doc1 .text6 h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #1f1f1f;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+.expert .doctors .doc1 .text6 p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 400;
+}
+
+.expert .doctors .doc1 .text6{
+    background-color: #f5fbff;
+    padding: 6px 0px;
+    margin-top: -22px;
+}
+
+.expert .doctors .doc1:hover > .text6{
+    background-color: #5db2ff;
+}
+
+.expert .doctors .doc1 .text6:hover > h3{
+    color: #ffffff;
+}
+
+.expert .doctors .doc1 .text6:hover > p{
+    color: #ffffff;
+}
+/*********Expert End**********/
+
+/************Emergency part Start*******/
+.emergency{
+    max-width: 100%;
+    height: 242px;
+    display: flex;
+    margin: 0 -8px;
+}
+
+.emergency div{
+    width: 50%;
+}
+
+.emergency .container1{
+    background: linear-gradient(rgba(122,190,253,0.8), rgba(122,190,253,0.8)), url(emergency-1.png.webp) center no-repeat;
+}
+
+.emergency .container1 h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 77px;
+    padding-left: 62px;
+}
+
+.emergency .container1 p{
+    font-size: 13px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 62px;
+    margin-top: -10px;
+}
+
+.emergency .container1 button{
+    font-size: 15px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 9px 24px;
+    border-radius: 30px;
+    float: right;
+    margin-top: -65px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.emergency .container1 button:hover{
+    background-color: #fff;
+    color: #009dff;
+}
+
+.emergency .container2{
+    background: linear-gradient(rgba(102, 183, 245, 0.6), rgba(101, 177, 236, 0.6)), url(emergency-2.png.webp) center;
+}
+
+.emergency .container2 h3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 73px;
+    padding-left: 50px;
+}
+
+.emergency .container2 p{
+    font-size: 13px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 400;
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
+.emergency .container2 button{
+    font-size: 15px;
+    line-height: 23px;
+    color: #fff;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 9px 24px;
+    border-radius: 30px;
+    float: right;
+    margin-top: -65px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.emergency .container2 button:hover{
+    background-color: #fff;
+    color: #009dff;
+}
+/************Emergency part End***************/
+
+/************Footer Start******************/
+.footer{
+    max-width: 100%;
+    height: 600px;
+    background-color: #1f1f1f;
+    margin: 0 -8px;
+}
+
+.footer .footer-top{
+    padding-top: 153px;
+    padding-left: 73px;
+    display: flex;
+    text-align: left;
+    top: 30px;
+}
+
+.footer .footer-top .row1{
+    max-width: 370px;
+    height: 270px;
+    padding-right: 90px;
+}
+
+.footer .footer-top .row1 img{
+    width: 163px;
+    height: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer .footer-top .row1 p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #c7c7c7;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.footer .footer-top .row1 i{
+    font-size: 20px;
+    line-height: 50px;
+    color: #bababa;
+    background-color: #707070;
+    font-weight: 400;
+    padding: 0px 15px;
+    width: 20px;
+    height: 50px;
+    letter-spacing: 9px;
+}
+
+.footer .footer-top .row1 i:hover{
+    color: #ffffff;
+}
+
+.footer .footer-top .row{
+    max-width: 190px;
+    height: 270px;
+    padding-right: 50px;
+}
+
+.footer .footer-top .row h3{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.footer .footer-top .row ul{
+    list-style: none;
+}
+
+.footer .footer-top .row ul li{
+    margin-left: -40px;
+}
+
+
+.footer .footer-top .row ul li a{
+    text-decoration: none;
+    color: #c7c7c7;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.footer .footer-top .row ul li a:hover{
+    color: #5db2ff;
+}
+
+.footer .footer-top .row2{
+    padding-left: 20px;
+}
+
+.footer .footer-top .row2 h3{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.footer .footer-top .row2 p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #c7c7c7;
+    font-weight: 300;
+}
+
+footer{
+    max-width: 100%;
+    height: 70px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #919191;
+    background-color: #000;
+    margin: 0px -8px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+footer a{
+    color: #5db2ff;
+    text-decoration: none;
+}
+/************Footer End******************/
+
+/************Desktop view start****************/
+@media (min-width: 1024px) and (max-width: 1080px) {
+    header{
+        width: 100%;
+        height: 50px;
+    }
+    header .contact{
+        padding-left: 200px;
+    }
+
+    header .contact ul li{
+        padding-right: 40px;
+    }
+
+    .navbar{
+        max-width: 100%;
+        height: 70px;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar .logo{
+        padding-left: 60px;
+    }
+
+    .navbar .nav{
+        margin-left: 0px;
+        display: flex;
+    }
+
+    .navbar .nav ul li{
+        float: left;
+        padding-top: 12px;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        max-width: 570px !important;
+        color: #727272;
+    }
+
+    .navbar .navbtn button{
+        padding: 10px 12px;
+    }
+
+    .section1{
+        max-width: 100% !important;
+        height: 700px !important;
+    }
+
+    .info{
+        width: 100%;
+        height: 330px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-right: -8px;
+    }
+
+    .info div{
+        padding: 30px 30px;
+    }
+
+    .info .chamber-service{
+        margin-right: 0px;
+    }
+
+    .welcome div{
+        margin-left: 10px;
+    }
+
+
+    .department{
+        width: 100%;
+    }
+
+    .department .services .service1 .ser1 .details{
+        margin-top: -10px;
+    }
+
+    .department .services .service2 .ser1 .details{
+        margin-top: -10px;
+    }
+
+
+    .quote{
+        width: 100%;
+    }
+
+    .checkbtn{
+        width: 100%;
+        padding: 0;
+    }
+
+    .checkbtn ul li label{
+        padding: 35px 35px;
+        margin: 0;
+    }
+
+    .leading{
+        width: 100%;
+        padding: 60px 10px;
+        display: inline-flex;
+        padding-right: 0px;
+    }
+    .leading .pic{
+        width: 515px;
+        margin-right: 0px;
+        padding-left: 40px;
+    }
+
+    .leading .pic img{
+        padding-top: 40px;
+        width: 90%;
+        
+    }
+
+    .leading .text5{
+        padding: 53px 0px;
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+
+    .leading .text5 p{
+        width: 450px;
+    }
+
+    .expert{
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .expert h1{
+        padding-left: 77px;
+        padding-top: 100px;
+    }
+
+    .expert .doctors{
+        width: 95%;
+        margin-left: 25px;
+    }
+
+    .expert .doctors .doc1{
+        height: 250px;
+        margin: 0px;
+    }
+
+    .expert .doctors .doc1 img{
+        width: 99%;
+        height: 200px;
+    }
+
+    .emergency{
+        width: 100%;
+    }
+
+    .emergency .container1 button{
+        float: left;
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+
+    .emergency .container2 button{
+        float: left;
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .footer .footer-top{
+        padding-left: 30px;
+    }
+
+    .footer .footer-top .row1{
+        padding-right: 20px;
+    }
+
+    .footer .footer-top .row2{
+        padding-left: 0px;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+/************Desktop view end****************/
+
+/***********Mobile view start****************/
+@media (max-width: 768px){
+    header{
+        max-width: 100%;
+    }
+
+    header .contact ul li{
+        float: left;
+        padding-right: 40px;
+        font-size: 13px;
+        color: #919191;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    .navbar{
+        position: sticky;
+    }
+
+    .navbar .logo{
+        padding-top: 12px;
+        padding-left: 20px;
+    }
+
+    .navbar .nav{
+        margin-left: 500px;
+    }
+
+    .navdrop{
+        display: block;
+        float: right;
+        position: relative;
+    }
+
+    .navbar .nav ul{
+        list-style: none;
+        left: -100%;
+        max-width: 100%;
+        position: fixed;
+        transition: all 0.5s;
+        margin-top: 10px;
+        background-color: #5db1ffd2;
+        padding-left: 20px;
+    }
+    
+    .navbar .nav ul li{
+        clear: both;
+        line-height: 30px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        color: #1f1f1f;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .navbar .nav ul li i{
+        color: #1f1f1f;
+        font-size: 9px;
+        line-height: 9px;
+    }
+    
+    .navbar .nav ul li a{
+        text-decoration: none;
+        color: #1f1f1f;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+
+    .navbar .navbtn{
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .section1{
+            max-width: 100%;
+            height: 700px !important;
+            background: url(banner2.png.webp) 55%;
+        }
+
+        .section1 .text{
+            padding-left: 60px;
+            padding-top: 120px;
+        }
+
+        .section1 .text h3 span{
+            font-size: 55px;
+            font-weight: bold;
+            line-height: 84px;
+            padding-bottom: 8px;
+            color:#1f1f1f;
+        }
+
+        .section1 .text h3{
+            font-size: 55px;
+            font-weight: 300;
+            line-height: 84px;
+            color: #212529;
+            padding-bottom: 8px;
+            letter-spacing: 2px;
+        }
+
+        .section1 .text p{
+            font-size: 16px;
+            line-height: 28px;
+            color: #727272;
+            font-weight: 400;
+            margin-top: -65px;
+            padding-bottom: 23px;
+        }
+
+        .info{
+            max-width: 100% !important;
+            height: 480px;
+        }
+
+        .info div{
+            padding: 40px 15px;
+        }
+
+        .info .hospitality p{
+            padding-top: 33px;
+        }
+
+        .welcome{
+            max-width: 100%;
+            height: 990px;
+            display: inline-block;
+        }
+
+        .welcome div{
+            padding-left: 115px;
+        }
+
+        .welcome .img{
+            padding-bottom: 220px;
+        }
+
+        .welcome .text2{
+            padding-left: 100px;
+        }
+
+        .department{
+            max-width: 100%;
+            height: auto;
+            margin-top: 50px;
+            padding-bottom: 250px;
+        }
+
+        .department .services{
+            padding: 0px 22px;
+        }
+
+        .department .services .service1 .ser1{
+            max-width: 390px !important;
+            height: 530px !important;
+            overflow: hidden;
+            margin: 30px 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+
+        .department .services .service1 .ser1 .details .top{
+            margin-top: 56px;
+        }
+
+        .department .services .service2 .ser1{
+            max-width: 390px !important;
+            height: 530px !important;
+            overflow: hidden;
+            margin: 30px 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+
+        .quote{
+            max-width: 100% !important;
+            height: 622px;
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(doctor.webp) 57% no-repeat;
+        }
+
+        .checkbtn{
+            max-width: 100%;
+            height: 100px;
+            background-color: #f5fbff;
+            margin-top: -16px;
+            margin-bottom: -8px;
+            margin-left: 0;
+            margin-right: 88px;
+        }
+
+        .leading{
+            max-width: 100% !important;
+            height: 440px;
+            position: relative;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 60px 62px;
+        }
+
+        .hr{
+            margin-top: 60px;
+            padding: 0px 62px;
+            color: #eeeeee;
+            opacity: 25%;
+        }
+
+        .expert{
+            max-width: 100%;
+            height: 630px;
+            display: table;
+            margin-left: 100px;
+            padding-left: 0;
+            margin-right: 8px;
+            margin-bottom: 90px;
+        }
+        .expert .doctors{
+            display: table-row;
+            justify-content: baseline;
+        }
+
+        .expert .doctors .doc1{
+            width: 44%;
+            height: 324px;
+            float: left;
+            margin-right: 30px;
+            text-align: center;
+            background-color:#f5fbff;
+            background-size: cover;
+            padding-top: -20px;
+            margin-top: 55px;
+            border-radius: 4px;
+            display: table-column;
+        }
+
+        .expert .doctors .doc1 figure{
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+        
+        .expert .doctors .doc1 img{
+            width: 100%;
+        }
+
+        .emergency{
+            max-width: 100%;
+            height: 242px;
+            margin-right: 8px;
+        }
+
+        .emergency .container1 h3{
+            padding-top: 50px;
+            padding-left: 32px;
+        }
+        
+        .emergency .container1 p{
+            font-weight: 400;
+            padding-left: 32px;
+            margin-top: -10px;
+        }
+        
+        .emergency .container1 button{
+            float: left;
+            margin-top: 0px;
+            margin-left: 32px;
+        }
+
+        .emergency .container2 h3{
+            padding-top: 50px;
+            padding-left: 32px;
+        }
+        
+        .emergency .container2 p{
+            font-weight: 400;
+            padding-left: 32px;
+            margin-top: -10px;
+        }
+        
+        .emergency .container2 button{
+            float: left;
+            margin-top: 0px;
+            margin-left: 32px;
+        }
+
+        .footer{
+            max-width: 100%;
+            height: 600px;
+            margin-right: 8px;
+        }
+
+        .footer .footer-top{
+            padding-top: 153px;
+            padding-left: 20px;
+            display: flex;
+            text-align: left;
+            top: 30px;
+        }
+
+        .footer .footer-top .row1{
+            max-width: 250px;
+            height: 270px;
+            padding-right: 0px;
+        }
+
+        .footer .footer-top .row{
+            max-width: 140px;
+            height: 270px;
+            margin-left: -30px;
+        }
+
+        .footer .footer-top .row .u1{
+            margin-top: 32px;
+        }
+
+        .footer .footer-top .row .u2{
+            margin-top: 30px;
+        }
+
+        .footer .footer-top .row2 p{
+            margin-top: 32px;
+        }
+        
+        .footer .footer-top .row2{
+            margin-left: -50px;
+        }
+        
+        .footer .footer-top .row2 p{
+            max-width: 170px;
+            height: 50px;
+            display: inline;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/***********Mobile view end****************/
