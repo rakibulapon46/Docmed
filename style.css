@@ -1241,11 +1241,28 @@ footer a{
 @media (max-width: 768px){
     header{
         max-width: 100%;
+        height: 60px;
+        padding-bottom: 13px;
+    }
+
+    header .social, header .contact{
+        position: fixed;
+    }
+
+    header .social{
+        margin-left: 0;
+    }
+    
+    header .contact{
+        margin-top: 20px;
+        position: absolute;
+        left: 0px;
+        top: 0
     }
 
     header .contact ul li{
         float: left;
-        padding-right: 40px;
+        padding-right: 30px;
         font-size: 13px;
         color: #919191;
         line-height: 20px;
@@ -1253,6 +1270,7 @@ footer a{
     }
 
     .navbar{
+        max-width: 100%;
         position: sticky;
     }
 
@@ -1262,7 +1280,9 @@ footer a{
     }
 
     .navbar .nav{
-        margin-left: 500px;
+        position: absolute;
+        float: right;
+        right: 40px;
     }
 
     .navdrop{
@@ -1307,7 +1327,34 @@ footer a{
         font-size: 20px;
         font-weight: bold;
     }
-    
+
+    .navbar .nav ul .n1 ul{
+        margin-left: -70px;
+    }
+
+    .navbar .nav ul li a:hover{
+        color: #dde2e2;
+    }
+
+    .navbar .nav ul li:hover > ul{
+        position: relative;
+        float: left;
+        left: 0;
+        padding-left: 93px;
+        background-color: transparent;
+        text-align: start;
+        display: inline;
+    }
+
+    .navbar .nav ul li:hover > ul li{
+        display: block;
+    }
+
+    .navbar .nav ul li:hover > ul li a{
+        position: relative;
+        float: left;
+        margin-left: 10px;
+    }
 
     .navbar .navbtn{
         display: none;
@@ -1317,16 +1364,16 @@ footer a{
         .section1{
             max-width: 100%;
             height: 700px !important;
-            background: url(banner2.png.webp) 55%;
+            background: url(banner2.png.webp) 62%;
         }
 
         .section1 .text{
-            padding-left: 60px;
-            padding-top: 120px;
+            padding-left: 20px;
+            margin-top: -50px;
         }
 
         .section1 .text h3 span{
-            font-size: 55px;
+            font-size: 40px;
             font-weight: bold;
             line-height: 84px;
             padding-bottom: 8px;
@@ -1334,7 +1381,7 @@ footer a{
         }
 
         .section1 .text h3{
-            font-size: 55px;
+            font-size: 30px;
             font-weight: 300;
             line-height: 84px;
             color: #212529;
@@ -1343,7 +1390,7 @@ footer a{
         }
 
         .section1 .text p{
-            font-size: 16px;
+            font-size: 15px;
             line-height: 28px;
             color: #727272;
             font-weight: 400;
@@ -1352,13 +1399,16 @@ footer a{
         }
 
         .info{
-            max-width: 100% !important;
+            max-width: 100%;
             height: 480px;
+            padding: 0px;
+            display: table-row;
         }
 
         .info div{
-            padding: 40px 15px;
+            padding: 40px 72px;
         }
+
 
         .info .hospitality p{
             padding-top: 33px;
@@ -1370,68 +1420,140 @@ footer a{
             display: inline-block;
         }
 
-        .welcome div{
-            padding-left: 115px;
-        }
-
         .welcome .img{
             padding-bottom: 220px;
+            width: 100%;
+            padding-left: 35px;
+        }
+
+        .welcome .img .pic1{
+            position: relative;
+            width: 290px;
+            height: 290px;
+            margin-top: -60px;
+        }
+        
+        .welcome .img .pic2{
+            position: relative;
+            width: 290px;
+            height: 290px;
+            margin-top: 170px;
+            margin-left: -110px;
         }
 
         .welcome .text2{
-            padding-left: 100px;
+            padding-left: 40px;
         }
 
         .department{
             max-width: 100%;
-            height: auto;
-            margin-top: 50px;
+            height: fit-content;
             padding-bottom: 250px;
+            margin-top: 30px;
+            margin-bottom: 1750px;
         }
 
         .department .services{
-            padding: 0px 22px;
+            padding: 0px 0px;
+            display: inline;
+        }
+
+        .department .services .service1{
+            display: inline-block;
         }
 
         .department .services .service1 .ser1{
-            max-width: 390px !important;
+            max-width: 100% !important;
             height: 530px !important;
-            overflow: hidden;
-            margin: 30px 20px;
+            margin: 10px 5px;
             background-color: #ffffff;
             box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
             border-radius: 4px;
+            display: table-row;
+            position: relative;
+        }
+
+        .department .services .service1 .ser1 img{
+            max-width: 270px !important;
+            height: 232px !important;
+            margin-left: 17px;
+            padding-top: 20px;
+            transition: all 0.2s ease-in;
         }
 
         .department .services .service1 .ser1 .details .top{
             margin-top: 56px;
         }
 
+        .department .services .service2{
+            display: inline-block;
+        }
+
         .department .services .service2 .ser1{
-            max-width: 390px !important;
-            height: 530px !important;
-            overflow: hidden;
-            margin: 30px 20px;
+            max-width: 100% !important;
+            height: 430px !important;
+            margin: 10px 5px;
             background-color: #ffffff;
             box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
             border-radius: 4px;
+            display: table-row;
+            position: relative;
         }
+
+        .department .services .service2 .ser1 img{
+            max-width: 270px !important;
+            height: 232px !important;
+            margin-left: 17px;
+            padding-top: 20px;
+            transition: all 0.2s ease-in;
+        }}
 
         .quote{
             max-width: 100% !important;
             height: 622px;
-            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(doctor.webp) 57% no-repeat;
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(doctor.webp) 68% no-repeat;
+        }
+
+        .quote .text4{
+            text-align: center;
+            padding-top: 100px;
         }
 
         .checkbtn{
             max-width: 100%;
             height: 100px;
             background-color: #f5fbff;
-            margin-top: -16px;
             margin-bottom: -8px;
-            margin-left: 0;
-            margin-right: 88px;
+            margin-left: -8;
+            margin-right: 0px;
         }
+
+        .checkbtn ul{
+            list-style: none;
+            display: inline;
+        }
+        
+        .checkbtn ul li{
+            float: left;
+        }
+        
+        .checkbtn ul li input{
+            display: none;
+        }
+        
+        .checkbtn ul li label{
+            background-color: #f5fbff;
+            display: inline;
+            cursor: pointer;
+            padding: 20 70px;
+            font-size: 20px;
+            line-height: 30px;
+            color: #1f1f1f;
+            font-weight: 400;
+            text-align: left;
+            margin-right: -4px;
+        }
+        
 
         .leading{
             max-width: 100% !important;
@@ -1439,7 +1561,17 @@ footer a{
             position: relative;
             display: inline-block;
             margin-top: 10px;
-            padding: 60px 62px;
+            padding: 60px 0px;
+            margin-left: -8px;
+        }
+
+        .leading .text5{
+            padding: 53px 20px;
+        }
+
+        .leading .pic img{
+            width: 300px;
+            padding: 3px;
         }
 
         .hr{
@@ -1453,7 +1585,7 @@ footer a{
             max-width: 100%;
             height: 630px;
             display: table;
-            margin-left: 100px;
+            margin-left: 10px;
             padding-left: 0;
             margin-right: 8px;
             margin-bottom: 90px;
@@ -1474,7 +1606,7 @@ footer a{
             padding-top: -20px;
             margin-top: 55px;
             border-radius: 4px;
-            display: table-column;
+            display: table-row;
         }
 
         .expert .doctors .doc1 figure{
@@ -1488,9 +1620,12 @@ footer a{
         }
 
         .emergency{
-            max-width: 100%;
-            height: 242px;
-            margin-right: 8px;
+            display: inline;
+        }
+
+        .emergency .container1, .emergency .container2{
+            width: 290px;
+            height: 220px;
         }
 
         .emergency .container1 h3{
@@ -1525,6 +1660,7 @@ footer a{
             float: left;
             margin-top: 0px;
             margin-left: 32px;
+            padding: 10px;
         }
 
         .footer{
@@ -1574,47 +1710,90 @@ footer a{
             height: 50px;
             display: inline;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+/***********Mobile 768 view end****************/
+@media (min-width: 320px) and (max-width:750px){
+    .footer{
+        max-width: 100%;
+        height: 1200px;
+        background-color: #1f1f1f;
+        margin: 0 -8px;
+    }
+    
+    .footer .footer-top{
+        padding-top: 153px;
+        padding-left: 73px;
+        display: inline;
+        text-align: left;
+        top: 30px;
+    }
 
+    .footer .footer-top .row1{
+        max-width: 370px;
+        height: 270px;
+        padding-left: 10px;
+    }
 
+    .footer .footer-top .row{
+        max-width: 190px;
+        height: 270px;
+        padding-left: 50px;
+        margin-top: 50px;
+    }
 
+    .footer .footer-top .row2{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
 
+    footer{
+        max-width: 100%;
+        height: 100px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #919191;
+        background-color: #000;
+        margin: 0px -8px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
 
+    .expert{
+        max-width: 100%;
+        height: 630px;
+        display: table;
+        margin-left: 0px;
+        padding-left: 0;
+        margin-right: 8px;
+        margin-bottom: 90px;
+    }
+    .expert .doctors{
+        display: table-row;
+        justify-content: center;
+    }
 
+    .expert .doctors .doc1{
+        width: 290px;
+        height: 324px;
+        float: left;
+        margin-right: 30px;
+        text-align: center;
+        background-color:#f5fbff;
+        background-size: cover;
+        padding-top: -20px;
+        margin-top: 95px;
+        border-radius: 4px;
+        display: table-row;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .expert .doctors .doc1 figure{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    
+    .expert .doctors .doc1 img{
+        width: 100%;
+    }
 }
-
-/***********Mobile view end****************/
